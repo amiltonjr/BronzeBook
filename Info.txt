@@ -1,0 +1,9 @@
+Tecnologia utilizada:
+- PHP 5.6.2
+- PostgreSQL 9.4.4
+
+ATENÇÃO: É necessário editar o arquivo "config.php" dentro da pasta "www" para
+que a conexão com o banco de dados seja efetuada!
+
+Obs.: ao iniciar pela primeira vez, o sistema criará as tabelas automaticamente
+no banco de dados.

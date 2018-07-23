@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Bronzebook - Cadastro</title>
+<link rel="stylesheet" href="css/geral.css" type="text/css" media="all" />
+</head>
+
+<body>
+
+	<div class="container">
+  
+  		<div class="header">
+  			<h1>Bronzebook</h1>
+  		</div>
+  
+  		<div class="content">
+			<h1>Cadastrar novo bronze</h1>
+			<form action="cadastro.php" method="post">
+				<p>
+					<label><img src="img/add.jpg" alt=""/> Apelido:
+						<input type="text" name="apelido" />
+					</label>
+					&nbsp;&nbsp;
+					<label>Senha:
+						<input type="password" name="senha" />
+					</label>
+				</p>
+				<p><img src="img/relogio.jpg" alt=""/> Disponibilidade para jogar (dia e horário):
+					<select name="disponibilidade">
+						<option value="segunda">Segunda-feira</option>
+						<option value="terca">Terça-feira</option>
+						<option value="quarta">Quarta-feira</option>
+						<option value="quinta">Quinta-feira</option>
+						<option value="sexta">Sexta-feira</option>
+						<option value="sabado">Sábado</option>
+						<option value="domingo">Domingo</option>
+					</select>
+					das
+					<select name="dasH">
+						<option value="00">00</option>
+						<option value="01">01</option>
+						<option value="02">02</option>
+						<option value="03">03</option>
+						<option value="04">04</option>
+						<option value="05">05</option>
+						<option value="06">06</option>
+						<option value="07">07</option>
+						<option value="08">08</option>
+						<option value="09">09</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+						<option value="13">13</option>
+						<option value="14">14</option>
+						<option value="15">15</option>
+						<option value="16">16</option>
+						<option value="17">17</option>
+						<option value="18">18</option>
+						<option value="19">19</option>
+						<option value="20">20</option>
+						<option value="21">21</option>
+						<option value="22">22</option>
+						<option value="23">23</option>
+					</select>
+					:
+					<select name="dasM">
+						<option value="00">00</option>
+						<option value="15">15</option>
+						<option value="30">30</option>
+						<option value="45">45</option>
+					</select>
+					h às
+					<select name="asH">
+						<option value="00">00</option>
+						<option value="01">01</option>
+						<option value="02">02</option>
+						<option value="03">03</option>
+						<option value="04">04</option>
+						<option value="05">05</option>
+						<option value="06">06</option>
+						<option value="07">07</option>
+						<option value="08">08</option>
+						<option value="09">09</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+						<option value="13">13</option>
+						<option value="14">14</option>
+						<option value="15">15</option>
+						<option value="16">16</option>
+						<option value="17">17</option>
+						<option value="18">18</option>
+						<option value="19">19</option>
+						<option value="20">20</option>
+						<option value="21">21</option>
+						<option value="22">22</option>
+						<option value="23">23</option>
+					</select>
+					:
+					<select name="asM">
+						<option value="00">00</option>
+						<option value="15">15</option>
+						<option value="30">30</option>
+						<option value="45">45</option>
+					</select>
+					h</p>
+				<p>
+					<label><img src="img/arquivo.jpg" alt=""/> Descrição:<br />
+						<textarea name="descricao" cols="80" rows="4"></textarea>
+					</label>
+				</p>
+				<p><img src="img/pessoa.jpg" alt=""/> Humor:
+					<label>
+						<input type="radio" name="humor" value="agressivo" />
+						<img src="img/agressivo.jpg" alt=""/> Agressivo</label>
+					<label>
+						<input type="radio" name="humor" value="neutro" />
+						<img src="img/neutro.jpg" alt=""/> Neutro</label>
+					<label>
+						<input type="radio" name="humor" value="calmo" />
+						<img src="img/calmo.jpg" alt=""/> Calmo</label>
+				</p>
+				<p>
+					<input type="submit" value="Cadastrar" />
+					&nbsp;&nbsp;
+					<input type="button" value="Cancelar" onclick="javascript:location.href='index.html';" />
+				</p>
+			</form>
+<form action="cadastro.php" method="post">
+</form>
+		</div>
+	  
+	  	<div class="footer">
+			<p>Copyright &copy; 2015 - Bronzebook</p>
+	  	</div>
+  
+  	</div>
+</body>
+</html>

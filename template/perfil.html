@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Bronzebook - Perfil de junior007</title>
+<link rel="stylesheet" href="css/geral.css" type="text/css" media="all" />
+</head>
+
+<body>
+
+	<div class="container">
+  
+  		<div class="header">
+  			<h1>Bronzebook</h1>
+			
+			<!-- Se o usuário estiver logado -->
+			<div class="menu">
+				<div class="fltlft">
+					<input type="button" value="Início" onclick="javascript:location.href='index.html';" /> <input type="button" value="Perfil" onclick="javascript:location.href='perfil.html';" /> <input type="button" value="Amigos" onclick="javascript:location.href='amigos.html';" /> <input type="button" value="Equipe" onclick="javascript:location.href='equipe.html';" /> <input type="button" value="Pesquisar" onclick="javascript:location.href='pesquisar.html';" />
+				</div>
+				<div class="fltrt">
+					Logado(a) como junior007 <input type="button" value="Sair" onclick="javascript:location.href='sair.php';" />
+				</div>
+			</div>
+			<!-- /Se o usuário estiver logado -->
+  		</div>
+  
+  		<div class="content">
+			<h1>Perfil de junior007
+			<!-- Se o usuário for dono do perfil atual -->
+			&nbsp;&nbsp;<input type="button" value="Editar" onclick="javascript:location.href='editarperfil.php';" />
+			<!-- /Se o usuário for dono do perfil atual -->
+			</h1>
+			
+			<p>
+				<img src="img/relogio.jpg" alt=""/> <strong>Disponibilidade para jogar (dia e horário):</strong>
+					Segunda-feira das 12:00h às 14:00h
+			</p>
+			<p>
+				<img src="img/arquivo.jpg" alt=""/> <strong>Descrição:</strong>
+					Eu sou um jogador muito malvado
+			</p>
+			<p>
+				<img src="img/pessoa.jpg" alt=""/> <strong>Humor:</strong>
+				<img src="img/agressivo.jpg" alt=""/> Agressivo
+			</p>
+			<p>
+				<img src="img/pessoas.jpg" alt=""/> <strong>Equipe(s):</strong><br /><br />
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i><a href="verequipe.php?id=010">OsFodões</a></i> - <strong><a href="perfil.php">junior007</a></strong>, <a href="perfil.php">Pedro</a>, <a href="perfil.php">Thiago</a>, <a href="perfil.php">Lucas</a><br />
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i><a href="verequipe.php?id=011">UTFPR</a></i> - <strong><a href="perfil.php">junior007</a></strong>, <a href="perfil.php">Pedro</a>, <a href="perfil.php">Thiago</a>, <a href="perfil.php">Lucas</a><br />
+			</p>
+			<!-- Se não for amigo -->
+			<p><input type="button" value="Adicionar amigo" onclick="javascript:location.href='addamigo.php?id=junior007';" /></p>
+			<!-- /Se não for amigo -->
+			<!-- Se já for amigo -->
+			<p><input type="button" value="Desfazer amizade" onclick="javascript:location.href='removeramigo.php?id=junior007';" /></p>
+			<!-- /Se já for amigo -->
+		</div>
+	  
+	  	<div class="footer">
+			<p>Copyright &copy; 2015 - Bronzebook</p>
+	  	</div>
+  
+  	</div>
+</body>
+</html>
